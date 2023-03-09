@@ -260,6 +260,15 @@ header{
     .skills{
         height: 500px
     }
+     
+    .contact-main{
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .contact-section{
+        height: 225px
+    }
  }
 
 @media(max-width: 450px){
