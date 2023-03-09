@@ -204,7 +204,12 @@ header{
     .headshot{
         display: none;
     }
-
+    
+    .hello{
+        font-size: 37px;
+        padding-top: 35px;
+    } 
+     
     .about{
         display: flex;
         justify-content: center;
@@ -238,5 +243,24 @@ header{
 
     .contact-main p{
         font-size: 10px;
+    }
+     
+    .hello{
+       padding-top: 50px;
+       font-size: 35px;
+   }
+ }
+
+@media(max-width: 450px){
+    .logo{
+        font-size: 12px;
+    }
+    .link{
+        font-size: 10px;
+    }
+
+    .hello{
+        padding-top: 90px;
+        font-size: 30px;
     }
  }
