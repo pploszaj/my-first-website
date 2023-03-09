@@ -238,7 +238,7 @@ header{
 
  @media (max-width: 855px){
     .skills-main div{
-        transform: scale(0.6);
+        transform: scale(0.7);
     }
 
     .contact-main p{
@@ -249,6 +249,17 @@ header{
        padding-top: 50px;
        font-size: 35px;
    }
+ }
+
+ @media (max-width :524px){
+    .skills-main{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .skills{
+        height: 500px
+    }
  }
 
 @media(max-width: 450px){
@@ -262,5 +273,14 @@ header{
     .hello{
         padding-top: 90px;
         font-size: 30px;
+    }
+ }
+
+@media (max-width : 350px){
+    .skills-main{
+        flex-wrap: nowrap;
+    }
+    .skills-main div{
+        transform: scale(0.5);
     }
  }
